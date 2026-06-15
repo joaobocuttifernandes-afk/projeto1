@@ -1,1 +1,88 @@
 
+/* Reseta as margens e define a fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #007A33; /* Verde que remete ao campo */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex-grow: 1;
+}
+
+section {
+    background: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #007A33;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #FDB913; /* Linha amarela dourada */
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+button {
+    background-color: #FDB913; /* Amarelo ouro (lembra a taça) */
+    color: #333;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e5a710;
+    transform: scale(1.05);
+}
+
+#fato-display {
+    margin-top: 1.5rem;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #555;
+    min-height: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+    margin-top: auto;
+}
